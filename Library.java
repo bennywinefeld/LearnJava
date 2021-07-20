@@ -85,6 +85,7 @@ public class Library {
           }
           break;
         case 5:
+          myScanner.close();
           break;
         default:
           System.out.println("\nPlease choose one of the actions by entering an integer between 1 and 5");
